@@ -9,13 +9,10 @@ package testapp;
  *
  * @author mhuziv
  */
-public class TestApp {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        Utils.ShowMessage();
+public class Utils {
+    
+    public static void ShowMessage() {
+        System.out.println("message");
     }
     
 }
